@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="fragments/fragment-header :: head"></head>
+	<body>
+		 <div th:replace="fragments/fragment-header :: navigation"></div>
+		 	<div class="container_detail_berita">
+	            <div class="resource--content" style="width:35%;display:inline-block">
+				    <div class="resource--content-border" style="border-color:#ff5252"></div>
+				    <div class="resource--content-headline" data-g-category="resources" data-g-action="click" data-g-label="resource: Google Fonts">Details</div>
+				    <div class="resource--content-body" style="width:25%;display:inline-block;">
+				    		<div class="label-title-detail-berita">By</div>
+				    		<div class="label-title-detail-berita">Topik</div>
+				    		<div class="label-title-detail-berita">URL</div>
+				    		<div class="label-title-detail-berita">Created</div>
+				    		<div class="label-title-detail-berita">Last Update</div>
+				    		<div class="label-title-detail-berita">University</div>
+				    		<div class="label-title-detail-berita">Avg. Rating</div>
+				    	</div>
+				    	<div class="resource--content-body" style="width:70%;display:inline-block;">
+				    		<div class="label-title-detail-berita">: <b>John the Magic</b></div>
+				    		<div class="label-title-detail-berita">: <b>Education</b></div>
+				    		<div class="label-title-detail-berita">: <b>https://id.pinterest.com/pin/29329</b></div>
+				    		<div class="label-title-detail-berita">: <b>February 14, 2018</b></div>
+				    		<div class="label-title-detail-berita">: <b>March 4, 2018</b></div>
+				    		<div class="label-title-detail-berita">: <b>University of Indonesia</b></div>
+				    		<div class="label-title-detail-berita">: <b>4.5</b></div>
+				    	</div>
+		  		</div>
+		  	</div>
+		  	<div class="container_detail_berita_response">
+	            <div class="resource--content" style="width:37.5	%;display:inline-block">
+				    <div class="resource--content-border" style="border-color:#ff5252"></div>
+				    <div class="resource--content-headline" data-g-category="resources" data-g-action="click" data-g-label="resource: Google Fonts">What people say?</div>
+				    <div class="resource--content-body" style="width:25%;display:inline-block;">
+				    <div class="container-comment">
+					    	<div><b>John Cornor</b></div>
+					    		<div style="color:#9a9898;font-size:14px"><i>"I like how they explain the detail with clear yet understandable sentences"</i></div>
+					    </div>
+					    <div class="container-comment">
+					    		<div><b>Catherine Kyle</b></div>
+					    		<div style="color:#9a9898;font-size:14px"><i>"This is such a great news, it makes me can't wait for another news"</i></div>
+					    </div>
+				    		
+				    	</div>
+		  		</div>
+		 	</div>
+		 <div th:replace="fragments/fragment :: footer"></div>
+	</body>
+</html>
